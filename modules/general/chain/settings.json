@@ -1,0 +1,33 @@
+{
+    "icon": "",
+    "options": [
+        {
+            "widget": "spinBox",
+            "label": "Section Count:",
+            "min_max": [1, ""],
+            "default": 1,
+            "arg": "sections"
+        },
+        {
+            "widget": "comboBox",
+            "label": "FK IK Mode:",
+            "items": ["FK", "IK", "FK/IK"],
+            "default": "FK",
+            "arg": "fk_ik"
+        },
+        {
+            "widget": "comboBox",
+            "label": "Controls and Joints",
+            "items": ["Controls and Joints", "Controls Only", "Joints Only"],
+            "default": "Controls and Joints",
+            "arg": "controls_joints"
+        },
+        {
+            "widget": "comboBox",
+            "label": "Control Shape:",
+            "items": ["1", "2", "3"],
+            "default": "1",
+            "arg": "ctrl"
+        }
+    ]
+}

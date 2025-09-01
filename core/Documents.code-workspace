@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/Bailey Cohen/Documents"
+		},
+		{
+			"path": "C:/Users/Awesome PC/Desktop/Python Code"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "C:\\Program Files\\Python38\\python.exe",
+		"ocaml.sandbox": {
+			"kind": "global"
+		}
+	}
+}

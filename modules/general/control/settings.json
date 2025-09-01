@@ -1,0 +1,28 @@
+{
+    "icon": "",
+    "about": {
+        "AUTHOR": "Bailey Cohen",
+        "URL": "",
+        "EMAIL": "",
+        "VERSION": [1, 3, 0],
+        "TYPE": "control",
+        "NAME": "control",
+        "DESCRIPTION": "Test Guide setup"
+    },
+    "options": [
+        {
+            "widget": "comboBox",
+            "label": "Controls and Joints",
+            "items": ["Control and Joint", "Control Only", "Joint Only"],
+            "default": "Control and Joint",
+            "arg": "control_joint"
+        },
+        {
+            "widget": "comboBox",
+            "label": "Control Shape:",
+            "items": ["1", "2", "3"],
+            "default": "1",
+            "arg": "ctrl"
+        }
+    ]
+}
